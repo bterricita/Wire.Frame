@@ -1,0 +1,31 @@
+body {
+  font-family: Roboto, arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-frame {
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 20px;
+  padding: 15px;
+}
+ul {
+  color: #707579;
+  list-style: none;
+}
+.temperature {
+  font-size: 38px;
+}
+.city-info {
+  color: rgb(32, 33, 36);
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+}
+h2 {
+  font-size: 22px;
+}
+.search-city {
+  margin-bottom: 15px;
+}
